@@ -10,9 +10,11 @@ import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import config from '../webpack.config.dev';
-
+const Dashboard = require('webpack-dashboard');
+const DashboardPlugin = require('webpack-dashboard/plugin');
 const bundler = webpack(config);
-
+const dashboard = new Dashboard();
+bundler.apply(new DashboardPlugin(dashboard.setData));
 // Run Browsersync and use middleware for Hot Module Replacement
 browserSync({
   port: 3000,
