@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @bradstimpson
- Watch 180
-  Unstar 4,964
- Fork 633 coryhouse/react-slingshot
- Code  Issues 18  Pull requests 3  Projects 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathreact-slingshot/.eslintrc
-36ed132  15 days ago
-@BR0kEN- BR0kEN- Use "babel-eslint" as parser for ESLint
-4 contributors @coryhouse @roburidge @BR0kEN- @barrystaes
-RawBlameHistory     
-Executable File  74 lines (73 sloc)  1.78 KB
 {
   "root": true,
   "extends": [
